@@ -13,17 +13,18 @@ class Header extends Component {
 
       default:
         return [
-          <ul key={Math.random()}>
-            <li>
-              <Payments />
-            </li>
-            <li style={{ margin: "0 10px" }}>
-              Credits: {this.props.auth.credits}
-            </li>
-            <li>
-              <Link to="/api/logout">Loggout</Link>
-            </li>
-          </ul>,
+          <li key={1}>
+            <Payments />
+          </li>,
+          <li key={2} style={{ margin: "0 10px" }}>
+            Credits: {this.props.auth.credits}
+          </li>,
+          <li key={3}>
+            <Link to="/api/logout" key={3}>
+              Loggout
+            </Link>
+            ,
+          </li>,
         ];
     }
   }
