@@ -1,7 +1,5 @@
 # NodeReact
 
-Fullstackowa aplikacja umożliwiająca dodanie kredytów do swojego konta(logowanie użytkowników - passport.js) 
-za pomocą płatności(Stripe), umożliwiających wysłanie maili(Sendgrid) do przyszłych klientów.
+A full-stack application that allows users to add credits to their accounts (user authentication using Passport.js) through payments (Stripe) and enables sending emails (Sendgrid) to potential customers.
 
-Stack zastosowany w tym projekcie to: Express.js, React, MongoDB, Redux, Passport.js, Sendgrid, Stripe, Axios,
-
+The technology stack used in this project includes: Express.js, React, MongoDB, Redux, Passport.js, Sendgrid, Stripe, Axios.
